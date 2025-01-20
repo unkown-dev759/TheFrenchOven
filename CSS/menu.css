@@ -1,0 +1,12 @@
+.row {
+    width: 100vw;
+    color: rgb(22, 40, 22);
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+.card {
+    margin-top: 10px;
+}

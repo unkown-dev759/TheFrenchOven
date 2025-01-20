@@ -1,0 +1,166 @@
+#welcome {
+    width: 100vw;
+    border-radius: 0px;
+    margin-top: 10px;
+    height: 60vh;
+}
+
+.offer {
+    width: 140px;
+    height: 140px;
+}
+
+.para h2 {
+    font-size: 1.2rem;
+}
+
+.offer h1 {
+    font-size: 1.9rem;
+}
+
+.offer p {
+    margin-left: -20px;
+}
+
+#caption {
+    width: 70vw;
+}
+
+#menu {
+    height: fit-content;
+    flex-direction: column;
+}
+
+.img {
+    margin: auto;
+    width: 70vw;
+    margin-top: 20px;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.captiondetails {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.order_images {
+    display: flex!important;
+    flex-direction: column!important;
+    height: fit-content;
+}
+
+.contact {
+    height: fit-content;
+}
+
+.details {
+    height: fit-content;
+}
+
+.image {
+    margin: auto;
+    height: 180px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.hotel {
+    height: 65vh;
+}
+
+.captionhotel {
+    font-size: 1.7rem;
+    width: 80%;
+    color: cyan;
+}
+
+.post {
+    height: 40vh;
+}
+
+.blogbtn {
+    width: 100px;
+    top: 10px!important;
+}
+
+.details {
+    border: none;
+}
+
+.post p {
+    text-align: center;
+}
+
+.readbtn {
+    position: relative;
+    width: 130px;
+}
+
+#ordernow {
+    text-align: center;
+    height: 28vh;
+}
+
+.container {
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    /* border-radius: 40px; */
+    width: 76%;
+    /* padding: 23px; */
+    height: 60vh;
+}
+
+.container h1 {
+    width: 90%;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.btn {
+    color: black;
+    width: 80%;
+    margin: auto;
+}
+
+.foodpic {
+    display: none;
+}
+
+#missionhead {
+    margin-left: -30px;
+    font-size: 1rem;
+}
+
+.missioncaption {
+    margin-left: -30px;
+    font-size: 1rem;
+}
+
+.missionpara {
+    font-family: Poppins, sans-serif;
+    margin-left: -35px;
+    font-size: 1.1rem;
+    border-radius: 13px;
+    height: 8vh;
+}
+
+.missionbtn {
+    width: 90px;
+    margin-left: -35px;
+    height: 4vh;
+    margin-top: 30px;
+}
+
+.aboutus {
+    height: 45vh;
+}
+
+#hidebtn {
+    display: none!important;
+}

@@ -1,0 +1,83 @@
+#welcome {
+    height: 60vh;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.para {
+    font-size: large;
+}
+
+#menu {
+    height: fit-content;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.img {
+    margin-top: 20px!important;
+    margin: auto;
+    width: 70vw;
+}
+
+.captiondetails {
+    font-size: 1.9rem;
+}
+
+.details {
+    height: fit-content;
+}
+
+.contact {
+    height: 40vh;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+.hotel {
+    height: 60vh;
+}
+
+.captionhotel {
+    width: 100vw;
+    top: 90px;
+}
+
+.samplehotel {
+    top: 100px;
+    font-size: 1.8rem;
+}
+
+#Hotel {
+    top: 120px;
+    font-size: 1.4rem;
+}
+
+.postimg {
+    width: 50vw;
+}
+
+.post p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.blogbtn {
+    width: 20vw;
+    position: relative;
+    left: 200px;
+}
+
+#Sample {
+    text-align: center;
+}
+
+.fromsubmit {
+    top: -7px;
+}

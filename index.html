@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The FrenchOven.com</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/ba259851be.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" media="(max-width:600px)" href="./Responsive/phone.css">
+    <link rel="stylesheet" media="(min-width:1500px)" href="./Responsive/bigscreen.css">
+    <link rel="stylesheet" media="(min-width:601px) and (max-width:1200px)" href="./Responsive/tab.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="logo"></div>
+        <!-- NAVBAR:LINKS -->
+        <ul class="navigation" id="navigation">
+            <li class="nav-list"><a href='./index.html' id="home" style="color: rgb(176, 132, 75);">HOME</a></li>
+            <li class="nav-list"><a href='./menu.html'>MENU</a></li>
+            <li class="nav-list"><a href='./reachus.html'>REACH US</a></li>
+            <li class="nav-list"><a href='./about.html'>ABOUT US</a></li>
+            <a href="#" id="close"><i class="fa fa-times"></i></a>
+        </ul>
+        <div class="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </nav>
+
+    <!-- WELCOME SECTION -->
+    <div id="welcome">
+        <!-- OUR SERVICE -->
+        <div class="offer">
+            <h1>PURE</h1>
+            <p>VEG</p>
+        </div>
+        <!-- INFORMATION -->
+        <div class="para">
+            <h2><i style="color: black;font-weight: normal;">Baked fresh</i> daily just for you.</h2>
+            <h1 id="caption">The best place to kick off your day or just take a break and enjoy a <i style="color: yellow;">yummy breakfast</i></h1>
+
+            <button class="readbtn">ORDER NOW</button>
+        </div>
+    </div>
+
+    <!-- MENU -->
+    <h1 class="headmenu">OUR SERVICES</h1>
+    <div id="menu">
+        <!-- FOR PIZZA -->
+        <div class="pizza">
+            <div class="img" id="off1img"></div>
+            <h3 class="name">Fast Delivering</h3>
+
+        </div>
+        <!-- FOR SALAD -->
+        <div class="salad">
+            <div class="img" id="saladimg"></div>
+            <h3 class="name">Bulk Ordering</h3>
+
+        </div>
+        <!-- FOR DESSERT -->
+        <div class="dessert">
+            <div class="img" id="dessertimg"></div>
+            <h3 class="name">Food Catering</h3>
+
+        </div>
+        <!-- FOR DRINKS -->
+        <div class="drinks">
+            <div class="img" id="drinksimg"></div>
+            <h3 class="name">Live Order Traking</h3>
+
+        </div>
+    </div>
+
+    <p class="sample note">*30mins food deliver guarantee is assured</p>
+
+    <!-- CONTACT NUMBER -->
+    <div class="contact">
+        <div class="details">
+            <h1 class="captiondetails">Inspiration for your first order</h1>
+            <div class="order_images">
+                <div class="image" id="f1"></div>
+                <div class="image" id="f2"></div>
+                <div class="image" id="f3"></div>
+                <div class="image" id="f4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT OUR RESTAURANT -->
+    <div class="hotel">
+
+        <h1 class="captionhotel"><span style="color: palevioletred;">Indulge</span> in our heavenly baked goods. </h1>
+        <p class="samplehotel">Baked fresh daily just for you</p>
+
+        <button class="readbtn" id="Hotel">Order Online</button>
+    </div>
+
+    <!-- OUR BLOGS -->
+    <h1 class="bloghead">Our Menu</h1>
+    <div id="blog">
+        <div class="post" id="post1">
+            <p id="postimg1" class="postimg"></p>
+            <p class="detail_order">Pineapple Cake [500 grams]<br>₹551<br></p>
+            <button class="blogbtn">ADD TO CART</button>
+        </div>
+        <div class="post" id="post2">
+            <p id="postimg2" class="postimg"></p>
+            <p class="detail_oder">Fantasy Cake [500 grams]<br>₹699<br></p>
+            <button class="blogbtn">ADD TO CART</button>
+        </div>
+        <div class="post" id="post3">
+            <p id="postimg3" class="postimg"></p>
+            <p class="detail_oder">Red Velvet Cake [500 grams]<br>₹729<br></p>
+            <button class="blogbtn">ADD TO CART</button>
+        </div>
+        <div class="post" id="post4">
+            <p id="postimg4" class="postimg"></p>
+            <p class="detail_oder">Butterscotch Cake [1 kg]<br>₹1199<br></p>
+            <button class="blogbtn">ADD TO CART</button>
+
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="contact" id="form">
+        <div class="details" id="ordernow">
+            <h1 class="captiondetails" style="color: black;">Feeling hungry??<span style="color: orange;">Order Online now!!</span></h1>
+
+            <p class="sample" id="Sample">Baked with passion, served with love and 100% fresh from our oven to your doorsteps</p>
+            <button class="fromsubmit">ORDER NOW</button>
+        </div>
+    </div>
+
+
+
+    <!-- ENDING SECTION -->
+    <div class="end">Copyright &#169;TheFrenchoven </div>
+</body>
+
+<script>
+    const close = document.getElementById('close')
+    const bar = document.getElementById('bar')
+    const nav = document.getElementById('navigation')
+
+    if (bar) {
+        bar.addEventListener('click', () => {
+            nav.classList.add('active')
+        })
+    }
+
+    if (close) {
+        close.addEventListener('click', () => {
+            nav.classList.remove('active')
+        })
+    }
+</script>
+
+
+</html>

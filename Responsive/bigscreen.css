@@ -1,0 +1,63 @@
+.para h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+#caption {
+    font-size: 1.9rem;
+}
+
+.readbtn {
+    font-size: 1.4rem;
+}
+
+.name {
+    font-size: 1.9rem;
+}
+
+.sample {
+    margin-top: -75px;
+    font-size: 1.8rem;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+.samplehotel {
+    font-size: 1.6rem;
+}
+
+#Hotel {
+    font-size: 1.8rem;
+}
+
+.post p {
+    font-size: x-large!important;
+}
+
+.blogbtn {
+    margin-top: -30px;
+    width: 200px;
+}
+
+.post {
+    height: 400px;
+}
+
+.sample {
+    margin-top: 30px;
+}
+
+.fromsubmit {
+    width: 150px;
+}
+
+.missionpara {
+    font-size: x-large;
+}
+
+.missionbtn {
+    height: 50px;
+}
